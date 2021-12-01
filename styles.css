@@ -35,9 +35,59 @@ body {
     color: rgb(2, 2, 2);
     padding: 1rem;
     display: block;
+    font-size: 30px;
 }
 
 .links li:hover {
     background-color: rgb(161, 158, 158);
 }
 
+.toggle {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle .bar {
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+    .toggle {
+        display: flex;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .links li {
+        text-align: center;
+    }
+
+    .links li a {
+        padding: .5rem 1 rem;
+    }
+
+    .links.active {
+        display: flex;
+    }
+}
