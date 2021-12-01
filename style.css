@@ -12,11 +12,11 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: rgba(71, 67, 67, 0.4);
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 .name {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     margin: .5rem;
 }
 
@@ -32,12 +32,8 @@ body {
 
 .links li a {
     text-decoration: none;
-    color: rgb(2, 2, 2);
+    color: white;
     padding: 1rem;
     display: block;
-}
-
-.links li:hover {
-    background-color: rgb(161, 158, 158);
 }
 
