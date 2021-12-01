@@ -67,6 +67,7 @@ body {
 
     .links {
         display: none;
+        width: 100%;
     }
 
     .navbar {
