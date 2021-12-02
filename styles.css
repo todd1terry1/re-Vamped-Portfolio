@@ -98,6 +98,12 @@ body {
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     }
 /* End of hero Styles*/
+/* Beginning of About Me Section*/
+.flex-row {
+    display: flex;
+    background-color: rgba(71, 67, 67, 0.4);
+    }
+    
 
 @media (max-width: 710px) {
     .toggle {
