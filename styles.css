@@ -110,6 +110,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 20%;
+    margin-top: 45px;
     }
 
 .about-p  {
@@ -160,6 +161,8 @@ body {
         border-bottom: 3px solid;
         text-align: center;
         justify-content: space-around;
+        margin-top: 3px;
+        
         }
 
     .about-p  {
