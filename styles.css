@@ -102,10 +102,23 @@ body {
 .flex-row {
     display: flex;
     background-color: rgba(71, 67, 67, 0.4);
+    flex-wrap: wrap;
     }
     
+.section-title  {
+    font-size: 48px;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    }
 
-@media (max-width: 710px) {
+.about-p  {
+    font-size: 24px;
+    width: 70%;
+    flex: 6;
+    }
+
+@media (max-width: 900px) {
     .toggle {
         display: flex;
     }
@@ -136,4 +149,22 @@ body {
     .links.active {
         display: flex;
     }
+
+    .flex-row {
+        flex-direction: column;
+    }
+
+    .section-title  {
+        width: 100%;
+        font-size: 36px;
+        border-bottom: 3px solid;
+        text-align: center;
+        justify-content: space-around;
+        }
+
+    .about-p  {
+        font-size: 24px;
+        text-align: center;
+        width: auto;
+            }
 }
