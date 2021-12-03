@@ -103,6 +103,7 @@ body {
     display: flex;
     background-color: rgba(71, 67, 67, 0.4);
     flex-wrap: wrap;
+    height: auto;
     }
     
 .section-title  {
@@ -120,7 +121,7 @@ body {
     }
 /* End of about me section*/
 /* Beginning of Working Samples Section*/
-p {
+.box p {
     display: flex;
     align-items: center;
     justify-content: center;
