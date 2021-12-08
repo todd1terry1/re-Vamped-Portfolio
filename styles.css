@@ -234,6 +234,40 @@ body {
 }
 
 /* End of Working Samples Section*/
+/* Beginning of footer Section*/
+    .flex-rowf {
+    display: flex;
+    background-color: rgba(71, 67, 67, 0.4);
+    height: auto;
+    flex-direction: row;
+    }
+
+    .foter ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    list-style: none;
+    align-content: flex-end;
+    }
+    
+    .foter ul li {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgb(252, 247, 247);
+    justify-content: space-around;
+    }
+    
+    .foter ul li a:hover {
+    border-radius: 15px;
+    text-shadow: black;
+    background: rgba(0, 0, 0, 0.2);
+    }
+    
+/* End of footer Section*/
+/* Beginning of media queries*/
 @media screen and (max-width:1000px) {
     .box{
         width: 40%;
@@ -272,7 +306,7 @@ body {
         display: flex;
     }
 
-    .flex-row {
+    .flex-row, .flex-rowf {
         flex-direction: column;
     }
 
