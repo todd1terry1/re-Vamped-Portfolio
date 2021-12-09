@@ -240,6 +240,7 @@ body {
     background-color: rgba(71, 67, 67, 0.4);
     height: auto;
     flex-direction: row;
+    width: 100%;
     }
 
     .foter ul {
@@ -249,7 +250,7 @@ body {
     color: rgb(0, 0, 0);
     padding: 10px;
     list-style: none;
-    align-content: flex-end;
+    box-sizing: border-box;
     }
     
     .foter ul li {
@@ -298,9 +299,6 @@ body {
         text-align: center;
     }
 
-    .links li a {
-        padding: .5rem 1 rem;
-    }
 
     .links.active {
         display: flex;
@@ -317,7 +315,6 @@ body {
         text-align: center;
         justify-content: space-around;
         margin-top: 3px;
-
         }
 
     .about-p  {
@@ -329,6 +326,15 @@ body {
     .box, .box1, .box2, .box3, .box4, .box5 {
         width: 90%;
             }
+
+    .foter ul  {
+         font-size: 20px;
+         flex-direction: column;
+             }
+
+    .foter ul li  {
+        font-size: 20px;
+                       }
 }
 
 @media screen and (max-width:600px) {
